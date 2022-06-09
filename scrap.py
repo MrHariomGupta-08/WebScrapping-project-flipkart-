@@ -31,5 +31,5 @@ df.to_csv('products.csv')
 # converting the csv file to the downloadable xlx file
 import pandas as pd
 df = pd.read_csv("products.csv")
-df.to_excel("productsdata.xlsx", sheet_name="", index=False)
+df.to_excel("productsdata.xlsx", sheet_name="proudcts.csv", index=False)
 #this is code is written on google colab.
